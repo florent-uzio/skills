@@ -1,7 +1,6 @@
 {
   "name": "florentuzio-skills",
   "skills": [
-    "./skills/sample-skill",
     "./skills/ripple/rc-version"
   ]
 }
