@@ -1,0 +1,6 @@
+{
+  "name": "xrpl",
+  "description": "XRP Ledger tools for Claude Code, run locally against test networks",
+  "author": { "name": "Florent Uzio" },
+  "license": "ISC"
+}
