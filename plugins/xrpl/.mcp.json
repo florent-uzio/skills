@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "xrpl": {
+      "command": "npx",
+      "args": ["-y", "@florent-uzio/xrpl-mcp"],
+      "env": {
+        "XRPL_RECORDS_DIR": "~/.xrpl-mastra-ai/records"
+      }
+    }
+  }
+}
