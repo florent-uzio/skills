@@ -26,7 +26,7 @@ Wallet seeds are refused on any network that is not a test network. Testnet, dev
 To use a seed on another test network, add its URL to `XRPL_EXTRA_TEST_NETWORKS` (comma-separated). The plugin's config can't carry this, so run the server with `claude mcp add` instead of installing the plugin:
 
 ```bash
-claude mcp add xrpl --env XRPL_EXTRA_TEST_NETWORKS=wss://my-testnet.example.com/,ws://localhost:6006 -- npx -y @florent-uzio/xrpl-mcp
+claude mcp add xrpl --env XRPL_EXTRA_TEST_NETWORKS=wss://my-testnet.example.com/,ws://localhost:6006 -- npx -y @florent-uzio/xrpl-mcp@latest
 ```
 
 If the plugin is also installed, disable it so the two servers don't clash.
