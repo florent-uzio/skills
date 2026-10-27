@@ -13,6 +13,8 @@ Requires Node 22.13 or later.
 
 Restart Claude Code, then run `/mcp` to check that `xrpl` is connected.
 
+The plugin runs the latest published version of the server each time it starts. Claude Code reads the tool list only when the server starts, so after a new release, reconnect `xrpl` in `/mcp` or restart Claude Code to get the new tools.
+
 ## Usage
 
 Ask in plain language, for example: "Create and fund a testnet wallet, send 10 XRP to a second wallet, and save both wallets as a flow record."
