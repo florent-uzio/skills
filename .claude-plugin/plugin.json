@@ -1,6 +1,7 @@
 {
   "name": "florentuzio-skills",
   "skills": [
-    "./skills/ripple/rc-version"
+    "./skills/ripple/rc-version",
+    "./skills/productivity/excalidraw-recap"
   ]
 }
