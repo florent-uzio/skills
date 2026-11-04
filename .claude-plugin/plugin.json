@@ -2,6 +2,7 @@
   "name": "florentuzio-skills",
   "skills": [
     "./skills/ripple/rc-version",
-    "./skills/productivity/excalidraw-recap"
+    "./skills/productivity/excalidraw-recap",
+    "./skills/productivity/post-merge-cleanup"
   ]
 }

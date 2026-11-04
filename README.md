@@ -23,6 +23,7 @@ Skills specific to Ripple Custody instances.
 General-purpose skills for day-to-day work.
 
 - **[excalidraw-recap](./skills/productivity/excalidraw-recap/SKILL.md)** — Create or update an Excalidraw diagram (`.excalidraw` file) that recaps work done: XRPL/MCP transactions, brainstorming, client meetings, system design. Saves to `~/excalidraw/` by default. Also mirrors to an Excalidraw MCP server when one is installed.
+- **[post-merge-cleanup](./skills/productivity/post-merge-cleanup/SKILL.md)** — After a PR is merged, check out the default branch, pull, and delete the local branch you worked on. Handles squash/rebase merges.
 
 ### Plugins
 
