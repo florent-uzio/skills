@@ -27,4 +27,4 @@ General-purpose skills for day-to-day work.
 
 ### Plugins
 
-- **[xrpl](./plugins/xrpl/README.md)** — Claude Code plugin that runs the XRPL MCP server locally (test networks only). Install with `/plugin marketplace add florent-uzio/skills` then `/plugin install xrpl@florentuzio-plugins`.
+- **[xrpl](./plugins/xrpl/README.md)** — Claude Code plugin that runs the XRPL MCP server locally (wallet seeds on test networks only). Install with `/plugin marketplace add florent-uzio/skills` then `/plugin install xrpl@florentuzio-plugins`.
