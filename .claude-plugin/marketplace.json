@@ -5,7 +5,7 @@
     {
       "name": "xrpl",
       "source": "./plugins/xrpl",
-      "description": "XRP Ledger tools for Claude Code, run locally against test networks"
+      "description": "XRP Ledger tools for Claude Code, run locally; wallet seeds on test networks only"
     }
   ]
 }
