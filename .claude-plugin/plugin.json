@@ -1,5 +1,11 @@
 {
-  "name": "florentuzio-skills",
+  "name": "florent-uzio",
+  "description": "Florent Uzio's agent skills: Ripple Custody and day-to-day engineering",
+  "author": {
+    "name": "Florent Uzio"
+  },
+  "repository": "https://github.com/florent-uzio/skills",
+  "license": "MIT",
   "skills": [
     "./skills/ripple/rc-version",
     "./skills/productivity/excalidraw-recap",
