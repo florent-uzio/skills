@@ -8,7 +8,7 @@ Requires Node 22.13 or later.
 
 ```
 /plugin marketplace add florent-uzio/skills
-/plugin install xrpl@florentuzio-plugins
+/plugin install xrpl@florent-uzio-plugins
 ```
 
 Restart Claude Code, then run `/mcp` to check that `xrpl` is connected.

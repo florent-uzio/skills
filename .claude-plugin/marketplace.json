@@ -1,7 +1,15 @@
 {
-  "name": "florentuzio-plugins",
-  "owner": { "name": "Florent Uzio" },
+  "name": "florent-uzio-plugins",
+  "description": "Florent Uzio's Claude Code plugins: agent skills and the XRPL MCP server",
+  "owner": {
+    "name": "Florent Uzio"
+  },
   "plugins": [
+    {
+      "name": "florent-uzio",
+      "source": "./",
+      "description": "Florent Uzio's agent skills: Ripple Custody and day-to-day engineering"
+    },
     {
       "name": "xrpl",
       "source": "./plugins/xrpl",

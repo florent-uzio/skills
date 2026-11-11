@@ -4,11 +4,22 @@ My Claude Code agent skills for working with Ripple Custody and day-to-day engin
 
 ## Quickstart
 
+In Claude Code, install the skills as the `florent-uzio` plugin:
+
+```
+/plugin marketplace add florent-uzio/skills
+/plugin install florent-uzio@florent-uzio-plugins
+```
+
+The skills are then named `/florent-uzio:<skill>`, e.g. `/florent-uzio:post-merge-cleanup`.
+
+For other coding agents, or to pick skills one by one:
+
 ```bash
 npx skills@latest add florent-uzio/skills
 ```
 
-Pick the skills you want and which coding agents to install them on. Done.
+Use one or the other in Claude Code: both at once list every skill twice.
 
 ## Reference
 
@@ -27,4 +38,4 @@ General-purpose skills for day-to-day work.
 
 ### Plugins
 
-- **[xrpl](./plugins/xrpl/README.md)** — Claude Code plugin that runs the XRPL MCP server locally (wallet seeds on test networks only). Install with `/plugin marketplace add florent-uzio/skills` then `/plugin install xrpl@florentuzio-plugins`.
+- **[xrpl](./plugins/xrpl/README.md)** — Claude Code plugin that runs the XRPL MCP server locally (wallet seeds on test networks only). Install with `/plugin marketplace add florent-uzio/skills` then `/plugin install xrpl@florent-uzio-plugins`.
