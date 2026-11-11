@@ -2,5 +2,5 @@
   "name": "xrpl",
   "description": "XRP Ledger tools for Claude Code, run locally; wallet seeds on test networks only",
   "author": { "name": "Florent Uzio" },
-  "license": "ISC"
+  "license": "MIT"
 }
